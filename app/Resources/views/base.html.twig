@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link href='https://assets-fluc-com.s3.amazonaws.com/assets/c305f24190f031387a5e861b260c3a578eb3e5af/css/external.min.css' media='screen' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+  
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+   
+</html>
