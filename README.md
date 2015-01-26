@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-Symfony Standard Edition
+Symfony Standard Edition wiht ssh TEst
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony2
